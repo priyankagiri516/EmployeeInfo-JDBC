@@ -17,8 +17,8 @@ public class EmployeeConstant {
    private EmployeeConstant( ) {
 	   
    }
-   public static final String DB_URL = "";
+   public static final String DB_URL = "jdbc:mysql://localhost:3306/GitHubProjects";
    public static final String USERNAME = "root";
    public static final String PASSWORD = "root";
-   
+   public static final String INSERT_QUERY = "INSERT INTO JDBCEmployee (id, name, department , salary) VALUES (?, ?, ?, ?)";
 }
