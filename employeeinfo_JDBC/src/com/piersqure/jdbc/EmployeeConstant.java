@@ -30,4 +30,5 @@ public class EmployeeConstant {
 	public static final String INSERT_QUERY = "INSERT INTO JDBCEmployee (id, name, department , salary) VALUES (?, ?, ?, ?)";
 	public static final String GET_QUERY = "SELECT * FROM JDBCEmployee";
 	public static final String DELETE_BY_ID_QUERY = "DELETE FROM JDBCEmployee WHERE id = ?";
+	public static final String UPDATE_BY_ID_QUERY ="UPDATE JDBCEmployee SET salary = ? WHERE id = ?" ;  
 }
